@@ -1,0 +1,144 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "GetPriceIntent",
+      "samples": [
+        "what's the price of {cryptocurrency}  in {fiat_currency}",
+        "what's the {cryptocurrency} exchange rate",
+        "how much is a {cryptocurrency} worth in {fiat_currency}",
+        "show prices",
+        "give prices",
+        "give {cryptocurrency} prices in {fiat_currency} ",
+        "get prices",
+        "get the current {cryptocurrency} price in {fiat_currency}",
+        "what is the price of {cryptocurrency} in {fiat_currency}",
+        "give me the price of {cryptocurrency} in {fiat_currency}",
+        "give me the price of {cryptocurrency}",
+        "look up the price of {cryptocurrency} in {fiat_currency}",
+        "list prices",
+        "how much does a {cryptocurrency} cost in {fiat_currency} ",
+        "how much does a {cryptocurrency} cost",
+        "how much is a {cryptocurrency} worth",
+        "how much is a {cryptocurrency} worth in {fiat_currency} ",
+        "list prices in {fiat_currency} ",
+        "get prices in {fiat_currency} ",
+        "update",
+        "update in {fiat_currency} ",
+        "update {cryptocurrency} in {fiat_currency} ",
+        "update {cryptocurrency} ",
+        "give me the price of {cryptocurrency} in {fiat_currency} ",
+        "give me the price of {cryptocurrency} ",
+        "give me price",
+        "give me the price",
+        "give me prices",
+        "give me an update on the {cryptocurrency} price",
+        "fetch price",
+        "fetch prices",
+        "fetch the price of {cryptocurrency} ",
+        "fetch the price of {cryptocurrency} in {fiat_currency} ",
+        "fetch me prices",
+        "fetch me the price of {cryptocurrency} ",
+        "fetch me the price of {cryptocurrency} in {fiat_currency} "
+      ],
+      "slots": [
+        {
+          "name": "cryptocurrency",
+          "type": "CRYPTOCURRENCY_TYPE",
+          "samples": []
+        },
+        {
+          "name": "fiat_currency",
+          "type": "FIAT_CURRENCY_TYPE",
+          "samples": []
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "name": "CRYPTOCURRENCY_TYPE",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "bitcoin",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "ethereum",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "litecoin",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "ether",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "FIAT_CURRENCY_TYPE",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "us dollars",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "pounds",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "euros",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "pounds stirling",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "dollars",
+            "synonyms": []
+          }
+        }
+      ]
+    }
+  ]
+}
