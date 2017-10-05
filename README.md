@@ -2,7 +2,7 @@
 Alexa skill for fetching Coinbase API spot prices built using the Alexa Skills Kit and powered by AWS Lambda.
 
 ## Configuration
-To run your own copy of the skill, you can follow the directions in this [Alexa Python tutorial](https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial) with the following changes:
+To run your own copy of the skill you can follow the directions in this [Alexa Python tutorial](https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial) with the following changes:
 		
 * You'll need to add an environment variable named `applicationID` to your Lambda function with the value set to the Application ID displayed in the Alexa Skill Developer Console.
 * This skill is written in Python 3, so make sure your Lambda function's language is set accordingly.
